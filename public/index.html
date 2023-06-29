@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>MadLib Stories</title>
+</head>
+<body>
+    <header>
+        <h1 >Kooky Mad Libs</h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./stories.html">Saved Stories</a></li>
+            </ul>
+        </nav>
+        <p><strong>Mad Libs</strong> are stories with words removed and replaced by blank spaces. Fill in the blanks for a fun story! Make sure to think outside the box. The wackier the better!</p>
+     </header>
+     <div class="container">
+        <main>
+        
+        <form id="madlibs-form">
+            <h2>Pizza, Pizza!</h2>
+            <section id="inputs">
+                
+                <div class="input-group">
+                    <label for="adjective_1">adjective</label>
+                    <input type="text" id="adjective_1" name="adjective_1" required>
+                
+                    <label for="nationality">nationality</label>
+                    <input type="text" id="nationality" name="nationality" required>
+                
+                    <label for="person_name">person name</label>
+                    <input type="text" id="person_name" name="person_name" required>
+                
+                    <label for="noun_1">noun</label>
+                    <input type="text" id="noun_1" name="noun_1" required>
+
+                    <label for="adjective_2">adjective</label>
+                    <input type="text" id="adjective_2" name="adjective_2" required>
+              
+                    <label for="noun_2">noun</label>
+                    <input type="text" id="noun_2" name="noun_2" required>
+                
+                    <label for="adjective_3">adjective</label>
+                    <input type="text" id="adjective_3" name="adjective_3" required>
+
+                    <label for="adjective_4">adjective</label>
+                    <input type="text" id="adjective_4" name="adjective_4" required>
+                
+                    <label for="plural_noun">plural noun</label>
+                    <input type="text" id="plural_noun" name="plural_noun" required>
+                
+                    <label for="noun_3">noun</label>
+                    <input type="text" id="noun_3" name="noun_3" required>
+                
+                    <label for="number_1">number</label>
+                    <input type="text" id="number_1" name="number_1" required>
+
+                    <label for="shapes">shapes(plural)</label>
+                    <input type="text" id="shapes" name="shapes" required>
+               
+                    <label for="food_1">ingredient</label>
+                    <input type="text" id="food_1" name="food_1" required>
+
+                    <label for="food_2">ingredient</label>
+                    <input type="text" id="food_2" name="food_2" required>
+
+                    <label for="number_2">number</label>
+                    <input type="text" id="number_2" name="number_2" required>
+                </div>
+            </section>
+            <section id="madlib-submit">
+                <button type="submit">Story Time!</button>
+            </section>
+        </form>
+
+        <form id="madlibs-form2" class="hide">
+            <h2>Weird News</h2>
+            <section id="inputs">
+                
+                <div class="input-group">
+                    <label for="noun_4">noun</label>
+                    <input type="text" id="noun_4" name="noun_4" required>
+                
+                    <label for="state">wacky state</label>
+                    <input type="text" id="state" name="state" required>
+                
+                    <label for="verb">verb (past tense)</label>
+                    <input type="text" id="verb" name="verb" required>
+                
+                    <label for="noun_5">noun</label>
+                    <input type="text" id="noun_5" name="noun_5" required>
+
+                    <label for="verb_2">verb ending in -ing</label>
+                    <input type="text" id="verb_2" name="verb_2" required>
+              
+                    <label for="noun_6">noun</label>
+                    <input type="text" id="noun_6" name="noun_6" required>
+                
+                    <label for="verb_3">verb</label>
+                    <input type="text" id="verb_3" name="verb_3" required>
+
+                    <label for="noun_7">noun</label>
+                    <input type="text" id="noun_7" name="noun_7" required>
+                
+                    <label for="body_part">part of the body</label>
+                    <input type="text" id="body_part" name="body_part" required>
+                
+                    <label for="adjective_5">adjective</label>
+                    <input type="text" id="adjective_5" name="adjective_5" required>
+                
+                    <label for="relative">relative</label>
+                    <input type="text" id="relative" name="relative" required>
+
+                    <label for="month">month</label>
+                    <input type="text" id="month" name="month" required>
+               
+                    <label for="verb_4">verb ending in -ing</label>
+                    <input type="text" id="verb_4" name="verb_4" required>
+
+                    <label for="adjective_6">adjective</label>
+                    <input type="text" id="adjective_6" name="adjective_6" required>
+
+                    <label for="plural_noun2">plural noun</label>
+                    <input type="text" id="plural_noun2" name="plural_noun2" required>
+                </div>
+            </section>
+            <section id="madlib-submit2">
+                <button type="submit">Story Time!</button>
+            </section>
+        </form>
+        <div id="completed-story" class="hide"></div>
+        <div id="completed-story2" class="hide"></div>
+    </main>
+     </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

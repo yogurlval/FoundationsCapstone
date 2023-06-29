@@ -1,0 +1,74 @@
+.container{
+    padding: 40px;
+    background-color: pink;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow-y: auto;
+}
+
+
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    margin-top: 20px;
+}
+
+.input-group {
+    
+    margin: 10px;
+}
+
+.input-group label{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.input-group input[type="text"] {
+    height: 30px;
+    width: 250px;
+    border: 1px solid #dea2d7;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 2px 0px;
+    padding-left: 10px;
+    margin: 3px 0 10px;
+}
+
+#completed-story, #completed-story2{
+    padding: 0 5%;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.inserted-text{
+    font-weight: 600;
+    background-color: rgb(246, 216, 221);
+    padding: 5px;
+}
+
+.hide{
+    display: none;
+}
