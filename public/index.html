@@ -9,14 +9,15 @@
 <body>
     <header>
         <h1 >Kooky Mad Libs</h1>
+
         <nav id="nav">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./stories.html">Saved Stories</a></li>
             </ul>
         </nav>
-        <p><strong>Mad Libs</strong> are stories with words removed and replaced by blank spaces. Fill in the blanks for a fun story! Make sure to think outside the box. The wackier the better!</p>
      </header>
+     <p id="description">Mad Libs are stories with words removed and replaced by blank spaces. Fill in the blanks for a fun story! Make sure to think outside the box. The wackier the better!</p>
      <div class="container">
         <main>
         
@@ -131,11 +132,14 @@
                 <button type="submit">Story Time!</button>
             </section>
         </form>
+        <div id="story-box">
         <div id="completed-story" class="hide"></div>
-        <div id="completed-story2" class="hide"></div>
+        <!-- <div id="completed-story2" class="hide"></div> -->
+    </div>
     </main>
      </div>
-
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+     <script src="./stories.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>

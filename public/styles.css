@@ -1,27 +1,53 @@
+body{
+    background-image: url("./doodle.PNG");
+}
+
 .container{
     padding: 40px;
-    background-color: pink;
-    margin-left: 175px;
-    margin-right: 175px;
+    background-color: rgb(255, 234, 101);
+    margin-left: 300px;
+    margin-right: 300px;
     margin-bottom: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     overflow-y: auto;
 }
 
-
 header{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
+    height: 105px;
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding-bottom: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 10px -8px;
+    overflow-y: auto;
+    background-color: rgb(251, 122, 200);
+}
 
-#nav {
+a{
+    padding: 3px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(254, 228, 64);
+
+}
+
+a:hover{
+    color: #93fff1;
+}
+
+#description{
+    margin-top: -30px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width:auto;
+    background-color: rgb(251, 122, 200);
+    padding-bottom: 20px;
 }
 
 form{
@@ -48,7 +74,7 @@ form{
 .input-group input[type="text"] {
     height: 30px;
     width: 250px;
-    border: 1px solid #dea2d7;
+    border: 2px solid #9B5DE5;
     border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 2px 0px;
     padding-left: 10px;
@@ -65,8 +91,20 @@ form{
 
 .inserted-text{
     font-weight: 600;
-    background-color: rgb(246, 216, 221);
+    background-color: rgb(253, 250, 179);
     padding: 5px;
+}
+
+button{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(155, 93, 229);
+    padding: 5px;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: rgb(0, 245, 212);
 }
 
 .hide{
